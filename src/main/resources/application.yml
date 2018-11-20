@@ -1,0 +1,8 @@
+operations:
+  serviceURL: https://localhost:8080/addonavailability # This is the rest service end point which needs to be consumed.
+  projectsURL: https://sonarcloud.io/api/components/search
+  issuesURL: https://sonarcloud.io/api/issues/search
+
+server:
+  port: 9090
+  contextPath: /api/*
